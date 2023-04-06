@@ -25,9 +25,7 @@
             Então o produto deve voltar ao seu estado ""original"
 
             Esquema do Cenário: Autenticação de compra
-            Quando eu digitar o <cor>
-            E a <tamanho>
-            E a <quantidade>
+            Quando eu digitar o <cor>, <tamanho>, <quantidade>
             Então deve exibir a <mensagem> de sucesso
 
             Exemplos:
