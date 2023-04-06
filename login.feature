@@ -9,18 +9,15 @@
             Dado que eu acesse a página de autenticação da EBAC-SHOP
 
             Cenário: Autenticação válida
-            Quando eu digitar o usuário "michael@ebac.com.br"
-            E a senha "154575"
+            Quando eu digitar o usuário "michael@ebac.com.br" e senha "154575"
             Então deve exibir uma mensagem de boas vindas: "Olá Michael!"
 
             Cenário: Usuário inexistente
-            Quando eu digitar o usuário "ichael@ebac.com.br"
-            E a senha "154575"
+            Quando eu digitar o usuário "ichael@ebac.com.br" e senha "154575"
             Então deve exibir uma mensagem de de alerta: "Usuário ou senha inválidos!"
 
             Cenário: Usuário com senha inválida
-            Quando eu digitar o usuário "michael@ebac.com.br"
-            E a senha "1023448"
+            Quando eu digitar o usuário "michael@ebac.com.br" e senha "1023448"
             Então deve exibir uma mensagem de alerta: "Usuário ou senha inválidos!"
 
             Esquema do Cenário: Autenticar usuário
