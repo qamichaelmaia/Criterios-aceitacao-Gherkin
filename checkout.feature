@@ -9,8 +9,7 @@
             Dado que eu acesse a página de cadastro da EBAC-SHOP
 
             Cenário: Cadastramento - Checkout
-            Quando eu digitar o nome "Michael" e o sobrenome "Maia"
-            E preencher os campos obrigatórios, "país, enredeço, cidade, cep, telefone e e-mail"
+            Quando eu digitar o nome "Michael" e o sobrenome "Maia" em seguida preencher os campos, "país, enredeço, cidade, cep, telefone e e-mail"
             Então deve exibir uma mensagem de confirmação: "Finalizar compra!"
 
             Cenário: Formato de e-mail inválido
@@ -19,7 +18,6 @@
 
             Cenário: Campos obrigatórios vazios
             Quando eu deixar algum destes campos vazios "nome, sobrenome, país, endereço, cidade, cep, telefone e e-mail"
-            E tentar finalizar o cadastramento
             Então deve exibir uma mensagem de de alerta: "Por favor, preencha os campos obrigatórios!"
 
             Esquema do Cenário: Autenticar checkout

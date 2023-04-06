@@ -15,8 +15,7 @@
             Então aparecerá a mensagem de confirmação: "Comprar"
 
             Cenário: Limite de quantidade por produto
-            Quando eu for selecionar a "quantidade de produtos"
-            E a quantidade for acima de "10 produtos"
+            Quando eu for selecionar a "quantidade de produtos" e for superior a "10 produtos"
             Então deve exibir uma mensagem de de alerta: "Não é permitido compra acima de 10 produtos"
 
             Cenário: Limpar configurações do pedido
